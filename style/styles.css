@@ -18,25 +18,81 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 28px;
+    margin-top: 45px;
+    margin-left: 134px;
+    margin-right: 1178px;
 }
 
  /* button style 1 */
  .btn-style{
     box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-opacity: 0.8;
-/* Frame 2 */
-position: absolute;
-width: 228px;
-height: 58px;
-left: 1046px;
-top: 38px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 17px 24px 17px 24px;
-font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    /* Frame 2 */
+    position: absolute;
+    width: 228px;
+    height: 58px;
+    left: 1046px;
+    top: 38px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    font-weight: 600;
+    margin-top: 38px;
+    margin-left: 1046;
+    margin-right: 150px;
+     }
+
+
+ .second-btn{
+    box-sizing: border-box;
+    background-color: rgba(15, 17, 20, 1);
+    border-radius: 8px;
+    opacity: 0.8;
+    position: absolute;
+    width: 208px;
+    height: 66px;
+    /* Auto layout */
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    font-weight: 600;
+    color: white;
+    margin-top: 32px;
+    margin-left: 377px;
+    margin-right: 377px;
+    font-size: 20px;
+ }
+ .banner-p{
+    margin-top: 24px;
+    margin-left: 73px;
+    margin-right: 73px;
+    
+ }
+
+ .banner-grettings{
+    font-size: 48px;
+    font-weight: 800;
+    margin-left: 221px;
+    margin-right: 221px;
+    margin-bottom: 76px;
+ }
+ .banner-profile{
+    display: block;
+    width: 240.28px;
+    height: 240px;
+    margin-left: 378px;
+    margin-right: 378px;
+    margin-top: 157px;
+ }
+
+ .banner{
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
  }
